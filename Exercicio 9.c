@@ -5,7 +5,7 @@
 
 main(void){
 	setlocale(LC_ALL, "portuguese");
-	printf("araj·");
+	printf("araj√°");
 	return 0;
 }
 
