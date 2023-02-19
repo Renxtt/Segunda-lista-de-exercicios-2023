@@ -4,11 +4,13 @@
 #include <time.h>
 #include <locale.h>
 
+//Exercício 2: Ler dois números do usuário e imprimir o resultado da soma desses números.
+
 main(void){
 	
 	int nub, nub2, plus, ves;
 	setlocale(LC_ALL, "portuguese");
-	printf("\n\n\n ol� Por Favor Inssira o PRIMEIRO numero INTEIRO:");
+	printf("\n\n\n olá Por Favor Inssira o PRIMEIRO numero INTEIRO:");
 	scanf("%d", &nub);
 		
 		
