@@ -4,6 +4,7 @@
 #include <time.h>
 #include <locale.h>
 
+//(Desafio) Exerc铆cio 3: Gerar dois n煤meros aleat贸rios entre 10 e 1000 e imprimir o maior desses n煤meros.
 
 main(void){
 
@@ -12,7 +13,7 @@ main(void){
 	int i, b;
 	
 	
-	// Inicializa o gerador de n鷐eros aleat髍ios com a hora atual
+	// Inicializa o gerador de n煤meros aleat贸rios com a hora atual
 	
 	
 	srand(time(NULL));
@@ -22,21 +23,21 @@ main(void){
 	
 	
 	if(i<b){
-		printf("maior N鷐ero aleat髍io: %d(%d)\n", b, i);
+		printf("maior N煤mero aleat贸rio: %d(%d)\n", b, i);
 		//TODO
 	}
 	if(b<i){
 		
-		printf("maior N鷐ero aleat髍io: %d(%d)\n", i, b);
+		printf("maior N煤mero aleat贸rio: %d(%d)\n", i, b);
 				
 		//TODO
 	}
 	
 	
-	/*printf("N鷐ero aleat髍io: %d\n", rand() % 100);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100);
+	/*printf("N煤mero aleat贸rio: %d\n", rand() % 100);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100);
 	return 0;
 	*/
 	
