@@ -1,7 +1,10 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <math.h
+
+//Exercício 5: Ler dois números do usuário e imprimir o resultado da multiplicação desses números.
+
 main(void){
 	
 	int nub, nub2, resu;
