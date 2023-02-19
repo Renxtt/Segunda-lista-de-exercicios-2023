@@ -6,7 +6,9 @@
 
 main(void){
 // estou usando http://linguagemc.com.br/exibindo-data-e-hora-com-time-h/ como base
-
+//Exercício 8: Peça ao usuário o ano de nascimento e mostre a idade que fará este ano.
+	
+	
 	int date, daa;
 	printf("qual seu ano de nascimento?");
 	scanf("%d", &date);
