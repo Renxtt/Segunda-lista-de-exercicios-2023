@@ -5,7 +5,7 @@
 #include <locale.h>
 #include <string.h>
 
-
+//Exercício 7: Gerar um número aleatório entre 1 e 10 e perguntar ao usuário se ele acertou o número. Imprimir na tela se o usuário acertou ou não.
 
 main(void){
 	
