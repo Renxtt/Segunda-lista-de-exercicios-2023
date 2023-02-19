@@ -3,13 +3,15 @@
 #include <stdlib.h>
 #include <time.h>
 
+//Exerc铆cio 1: Gerar um n煤mero aleat贸rio entre 1 e 100 e imprimir na tela.
+
 main(){
 	srand(time(NULL));
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100+1);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100+1);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100+1);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100+1);
-	printf("N鷐ero aleat髍io: %d\n", rand() % 100+1);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100+1);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100+1);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100+1);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100+1);
+	printf("N煤mero aleat贸rio: %d\n", rand() % 100+1);
 		
 	return 0;
 }
